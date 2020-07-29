@@ -1,7 +1,7 @@
 # KerberosSDR-Automation
 Automates configuration and syncing of KerberosSDR
 
-Python script is an older version using Selenium but was unable to run a headless browser leading to the development of the node js version.
+To use this you will need the automate.js file as well as to install the dependencies.
 
 Node js version uses Chrome API Puppetteer and is much faster than Selenium version while being more refined (automatically gets IP adress of pi). Looking into having it import the settings from settings.json and using those values for setup. Currently it requires you to open up the code and adjust the values based on your setup.
 
@@ -17,4 +17,9 @@ sudo install npm
 
 npm install puppeteer-core@v1.11.0
 
+After this run the file using
+
+node automate.js
+
+I personally have incorporated the script into the run.sh file inside the kerberossdr folder and have included my own run.sh file in case anyone wants to use it. (make sure automate.js is in same folder of run.sh)
 
