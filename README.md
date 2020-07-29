@@ -7,11 +7,14 @@ Node js version uses Chrome API Puppetteer and is much faster than Selenium vers
 
 YOU WILL NEED TO INSTALL NODE JS ON YOUR PI FOR THIS TO WORK - Check out https://github.com/nebrius/raspi-io/wiki/Getting-a-Raspberry-Pi-ready-for-NodeBots#installing-nodejs
 
-Since the Raspberry Pi uses chromium and not chrome you will also need to install the chromium webdriver:
+Since the Raspberry Pi uses chromium and not chrome you will also need to install the chromium webdriver. Check out https://www.youtube.com/watch?v=6LnJ1zW5464 if running into issues
+
+INSTALLING CHROMIUM WEBDRIVER
 
 sudo apt install chromium-browser chromium-codecs-ffmpeg
+
 sudo install npm
+
 npm install puppeteer-core@v1.11.0
 
-(if youre having issues check out this video https://www.youtube.com/watch?v=6LnJ1zW5464)
 
