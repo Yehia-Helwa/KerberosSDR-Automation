@@ -1,7 +1,7 @@
 # KerberosSDR-Automation
 Automates configuration and syncing of KerberosSDR
 
-To use this you will need the automate.js file as well as to install the dependencies.
+To use this you will need the automate.js file as well as to install the dependencies. (automate.py is old version using selenium)
 
 Node js version uses Chrome API Puppetteer and is much faster than Selenium version while being more refined (automatically gets IP adress of pi). Looking into having it import the settings from settings.json and using those values for setup. Currently it requires you to open up the code and adjust the values based on your setup.
 
